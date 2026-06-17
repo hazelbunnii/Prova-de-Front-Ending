@@ -1,0 +1,114 @@
+                    ︵︵︵ ๑ ♡ ๑ ︵︵︵
+
+                           HTML
+
+    [form] Uma caixa que guarda as informações que são ou
+    serão enviadas.
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏  
+    [input] Lugar onde o usuário escreve as informações.           
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+    [button] Botão que envia as informações aplicadas nos
+    input.
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+    [type]  Informa ao computador o tipo de informação que
+    será recebida.
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+    [placeholder] O que estará escrito dentro da caixa de
+    texto.
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+    [id] Define um "nome próprio" dos elementos da página.
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+    [div] é um contêiner genérico usado no HTML para agrupar
+    outros elementos.
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+    [label] em HTML serve como uma etiqueta ou rótulo
+    descritivo para um campo de formulário
+    (como <input> ou <textarea>).
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+
+                    ︵︵︵ ๑ ♡ ๑ ︵︵︵
+
+                            CSS
+
+  [@import] Importa um arquivo CSS externo, ex: fontes.
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏ 
+  [margin] serve para criar um espaçamento externo ao redor
+  de um elemento, afastando-o de outros elementos vizinhos
+  ou das bordas da página.            
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+  [padding] serve para criar um espaçamento interno dentro de
+  um elemento, empurrando o conteúdo (como textos ou imagens)
+  para longe das suas próprias bordas.
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+  [box-sizing] no CSS serve para definir como o tamanho total
+  de um elemento é calculado, controlando se as bordas (border)
+  e os espaçamentos internos (padding) devem ser somados às 
+  dimensões definidas ou embutidos nelas.
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+  [display] serve para controlar como um elemento HTML é
+  posicionado e exibido na página. Ela define se o elemento
+  ocupará uma linha inteira, ficará lado a lado com outros,
+  ou se organizará em estruturas de layout complexas. 
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+  [justify-content] é uma propriedade do CSS utilizada para
+  alinhar e distribuir o espaço entre os elementos dentro de
+  um contêiner (como no Flexbox ou CSS Grid) ao longo do eixo
+  principal.
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+  [border-radius] no CSS serve para arredondar os cantos das
+  bordas externas de um elemento.
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+  [gap] serve para criar um espaçamento (também chamado de
+  "calha" ou gutter) entre os elementos filhos de um contêiner,
+  sem afetar as bordas externas. Ela é amplamente utilizada em
+  layouts modernos, substituindo o uso antigo de margens (margin).
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+  [flex-direction] serve para definir a direção e a orientação
+  dos itens dentro de um contêiner flexível (display: flex).
+  Ela controla o eixo principal, determinando se os elementos
+  serão alinhados lado a lado (horizontalmente) ou empilhados
+  (verticalmente).
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+  [cursor] serve para controlar a aparência do ponteiro do
+  mouse quando o usuário passa por cima de um elemento na
+  página:
+
+  -> pointer: Transforma o cursor em uma "mãozinha", usado
+     para indicar que um elemento é clicável (botões, links).
+  
+  -> text: Mostra o ícone de seleção de texto
+  (aquela barra vertical), ideal para parágrafos e campos de texto.
+  
+  -> not-allowed: Exibe o ícone de proibido, indicando que o elemento
+  está desabilitado.
+  
+  -> wait ou progress: Mostra um ícone de carregamento (ampulheta ou
+  bolinha do sistema), ótimo para aguardar processos.
+  
+  -> grab / grabbing: Mostra uma "mãozinha aberta" que fecha ao agarrar
+  o elemento, muito usado em carrosséis e itens de arrastar e soltar.
+  
+  -> none: Esconde totalmente o cursor padrão.
+  
+  -> Imagens personalizadas: Você pode usar uma imagem própria
+  (como um .png ou .svg) em vez dos cursores padrão do sistema.
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+
+
+                    ︵︵︵ ๑ ♡ ๑ ︵︵︵
+
+                        JAVASCRIPT
+
+    
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏  
+                
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+    
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+    
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏               
+     
+✎﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏﹏
+    
+
+     background-color: #003561;

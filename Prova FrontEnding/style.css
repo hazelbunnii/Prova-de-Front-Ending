@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #004b87;
+}
+
+main {
+    background-color: #fff;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #004b87;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo img {
+    width: 160px;
+    height: auto;
+    margin-right: 20px;
+    display: block;
+    justify-content: center;
+}
+
+.menu-navegacao ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-top: 20px;
+
+    background-color: #013967;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.menu-navegacao a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu-navegacao a:hover {
+    color: #fff455;
+
+}
+
+.titulo h1 {
+    margin: 0;
+    color: white;
+}
+
+.main h2 {
+    text-align: center;
+    margin: 40px;
+    color: #004b87;
+}
+
+.container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logcard {
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 300px;
+    height: auto;
+    border: 2px solid #c6c6c6;
+}
+
+.logcard h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.infologin input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #dfdfdf;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+}
+
+.infologin {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.check input {
+    cursor: pointer;
+}
+
+
+.logcard button {
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff455;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logcard button:hover {
+    background-color: #ffe53d;
+}
+
+.cadastro button {
+    background-color: #13c522;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.rodape {
+    text-align: center;
+    padding: 20px;
+    background-color: #004b87;
+    color: #fff;
+    margin-top: 40px;
+}
