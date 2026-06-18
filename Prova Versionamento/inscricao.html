@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="painel.css">
+    <title>Painel ENEM</title>
+</head>
+<body>
+    <header class="cabecalho">
+
+        <div class="titulo">
+            <h1>Painel ENEM</h1>
+        <p>Bem-vindo ao painel do ENEM!</p>
+        </div>
+
+        <nav class="menu-navegacao">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="main">
+     <div class="logo">
+        <img src="enem.png" alt="Logo do ENEM">
+     </div>
+    </div>
+
+    <h2>Faça seu cadastro para acessar o sistema de inscrição do ENEM</h2>
+
+    <div class="container-cadastro">
+        <div class="cadcard">
+            <h2>Cadastro</h2>
+
+            <form id="cadastroform">
+
+                <div class="infocadastro">
+                    <input type="text" id="nome" placeholder="Nome Completo">
+                </div>
+
+                <div class="infocadastro">
+                    <input type="email" id="email" placeholder="E-mail">
+                </div>
+
+                <div class="infocadastro">
+                    <input type="text" id="cpf" placeholder="000.000.000-00" maxlength="14">
+                </div>
+
+                <div class="infocadastro">
+                    <input type="password" id="senha" placeholder="Senha">
+                </div>
+
+                <div class="check">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Lembre-me</label>
+                </div>
+
+                <button type="submit">Cadastrar</button>
+
+            </form>
+
+            <p id="mensagem"></p>
+        </div>
+    </div>
+    </main>
+    <footer class="rodape">
+        <p>© 2026 Exame Nacional do Ensino Médio ENEM</p>
+        <p>Todos os direitos reservados</p>
+    </footer>
+
+    <script src="painel.js"></script>
+</body>
+</html>
