@@ -31,36 +31,60 @@
      </div>
     </div>
 
-    <h2>Faça seu cadastro para acessar o sistema de inscrição do ENEM</h2>
+    <h2>Faça sua inscrição para o ENEM!</h2>
 
-    <div class="container-cadastro">
-        <div class="cadcard">
-            <h2>Cadastro</h2>
+    <div class="container-inscricao">
+        <div class="inscricaocard">
+            <h2>Bem-vindo! Preencha o formulário para se inscrever para o ENEM:</h2>
 
-            <form id="cadastroform">
+            <form id="inscricaoform">
 
-                <div class="infocadastro">
-                    <input type="text" id="nome" placeholder="Nome Completo">
-                </div>
+                <label for="idioma">Escolha o idioma para a prova:</label>
+                <select id="idioma" name="idioma">
+                    <option value="inglês">Inglês</option>
+                    <option value="espanhol">Espanhol</option>
+                </select>
 
-                <div class="infocadastro">
-                    <input type="email" id="email" placeholder="E-mail">
-                </div>
+                <label for="local">Local da prova:</label>
+                <select id="local" name="local">
+                    <option value="Acre">Acre</option>
+                    <option value="Alagoas">Alagoas</option>
+                    <option value="Amapá">Amapá</option>
+                    <option value="Amazonas">Amazonas</option>
+                    <option value="Bahia">Bahia</option>
+                    <option value="Ceará">Ceará</option>
+                    <option value="Distrito Federal">Distrito Federal</option>
+                    <option value="Espírito Santo">Espírito Santo</option>
+                    <option value="Goiás">Goiás</option>
+                    <option value="Maranhão">Maranhão</option>
+                    <option value="Mato Grosso">Mato Grosso</option>
+                    <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                    <option value="Minas Gerais">Minas Gerais</option>
+                    <option value="Pará">Pará</option>
+                    <option value="Paraíba">Paraíba</option>
+                    <option value="Paraná">Paraná</option>
+                    <option value="Pernambuco">Pernambuco</option>
+                    <option value="Piauí">Piauí</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                    <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                    <option value="Rondônia">Rondônia</option>
+                    <option value="Roraima">Roraima</option>
+                    <option value="Santa Catarina">Santa Catarina</option>
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Sergipe">Sergipe</option>
+                    <option value="Tocantins">Tocantins</option>
+                </select>
 
-                <div class="infocadastro">
-                    <input type="text" id="cpf" placeholder="000.000.000-00" maxlength="14">
-                </div>
+                <input type="text" id="cidade" placeholder="Cidade" required>
 
-                <div class="infocadastro">
-                    <input type="password" id="senha" placeholder="Senha">
-                </div>
+                <label for="necessidades">Necessita de atendimento especializado?:</label>
+                <select id="necessidades" name="necessidades">
+                    <option value="sim">Sim</option>
+                    <option value="não">Não</option>
+                </select>
 
-                <div class="check">
-                    <input type="checkbox" id="remember">
-                    <label for="remember">Lembre-me</label>
-                </div>
-
-                <button type="submit">Cadastrar</button>
+                <button type="submit">Inscrever-se</button>
 
             </form>
 
